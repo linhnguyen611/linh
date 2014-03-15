@@ -1,0 +1,217 @@
+/*an example of a type selector*/
+body {
+width: 1090px;
+background-color:gray;
+font-family:verdana; 
+}
+
+
+div#container {
+		background-color: gold; color: black;
+        border: groove 2px gray; border-radius: 20px;  
+		padding: 1em; width: 790px; height: auto;
+        }
+
+div#content { 
+		background-color: yellowgreen; color: black;
+        border: groove 2px gray; border-radius: 20px;  
+		padding: 1em; width: 755px; min-height: 80px;
+        }
+
+div#header { 
+        background-color: yellowgreen; color: black; 
+        border: groove 2px gray; border-radius: 20px;  
+		padding: 1em; width: 755px; height: 80px;
+		text-align: center;
+        }
+
+div#nav1 {
+		background-color: yellowgreen; color: black;
+		border: groove 2px gray; border-radius: 20px;  
+		padding: 1em; width: 755px; height: 50px;
+		text-align: center;
+		}
+
+ul { 
+		padding-top: 0em;
+		padding-left: 1em;
+		margin-left: 1px; 
+		border-bottom: 1px solid gray; 
+		width: auto; 
+		border: none; border-radius: 20px; 
+		text-align: center;
+} 
+ 
+li { 
+		display: inline;   
+		margin:20px; 
+		padding: 1em;
+		border-top: none; 
+		list-style: none; 
+		background-color: silver;
+		width: 100px;
+		text-align: center; 
+		position:relative;
+} 
+ 
+li a { text-decoration: none; } 
+li a:hover { background-color: green; color: white; }
+		
+
+div#address {
+		background-color: yellowgreen; color: black;
+		border: groove 2px gray; border-radius: 20px;
+		padding-top:0.5em;
+		padding-bottom:7em;
+		padding-left:0em;
+		padding-right:0em;
+		width:225px;
+		height: 250px;
+		text-align: center;
+		}
+
+div#leftcolumn {
+		background-color: yellowgreen; color: black;
+		border: groove 2px gray; border-radius: 20px;
+		padding-top:0.5em;
+		padding-bottom:7em;
+		padding-left:0em;
+		padding-right:0em;
+		width:225px;
+		height: 250px;
+		text-align: center;
+		}
+		
+div#mainbody {
+		background-color: yellowgreen; color: black;
+		border: groove 2px gray; border-radius: 20px;
+		padding-top:0.5em;
+		padding-bottom:7em;
+		padding-left:0em;
+		padding-right:0em;
+		width:312px;
+		height: 250px;
+		text-align: center;
+		}
+
+div#toprow {
+		border: groove 2px gray; border-radius: 20px;
+		background-color: gold; color: black;
+		text-align: center;
+		}
+	
+div#bottomrow {
+		border: groove 2px gray; border-radius: 20px;
+		background-color: gold; color: black;
+		text-align: center;
+	
+		}
+	
+div#heading1 {
+	background-color: yellowgreen; color: black; 
+	border: groove 2px gray; border-radius: 20px;
+	padding: 1em; min-width: 300px; min-height: 80px;
+	text-align: center;
+	}
+	
+
+div#nav2 { 
+        background-color: yellowgreen; color: black; 
+        border: groove 2px gray; border-radius: 20px;  
+        padding: 1em; width: 520px; height: 150px; 
+		text-align: center;
+        }
+
+div#accessibility {
+		background-color: yellowgreen; color: black;
+        border: groove 2px gray; border-radius: 20px;  
+		padding: 1em; width: 755px; min-height: 80px;
+		text-align: center;
+        }
+		
+div#usability {
+		background-color: yellowgreen; color: black;
+        border: groove 2px gray; border-radius: 20px;  
+		padding: 1em; width: 755px; min-height: 80px;
+		text-align: center;
+        }
+	
+div#size {
+		background-color: yellowgreen; color: black;
+        border: groove 2px gray; border-radius: 20px;  
+		padding: 1em; width: 755px; min-height: 80px;
+		text-align: center;
+        }
+	
+div#adward {
+		background-color: yellowgreen; color: black;
+        border: groove 2px gray; border-radius: 20px;  
+		padding: 1em; width: 190px; height: 150px;
+		text-align: center;
+        }
+		
+div#aboutus {
+		background-color: yellowgreen; color: black;
+        border: groove 2px gray; border-radius: 20px;  
+		padding: 1em; width: 755px; min-height: 80px;
+		text-align: center;
+        }
+		
+div#footer { 
+        color: black;  
+		padding: 1em; 
+		text-align: center;
+		font-size: 1.4em;
+        }
+		
+
+	
+.imagecenter {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	height: 220px;
+	width: 600px;
+	}
+	
+.imagecenter1 {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	height: 220px;
+	width: 450px;
+	}
+
+.image {
+	padding: 0.5em;
+	margin: 0;
+	height: 300px;
+	width: 243px;
+	}
+
+.imagefooter {
+	height: 215px;
+	width: 193px;
+	}
+
+.image1 {
+	display: block;
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+	height: 130px;
+	width: 120px;
+	}
+	
+p { 
+	padding: 1em;
+	margin: 0;
+	text-align: center;
+	}
+
+h2 {
+	padding-bottom: 1em;
+	margin: 0;
+	text-align: center;
+	} 

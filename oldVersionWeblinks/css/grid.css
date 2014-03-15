@@ -1,0 +1,16 @@
+body    { width: 800px; margin: 10px auto 0 auto; }
+
+div.grid1       { width:  9.17%; }
+div.grid2       { width: 19.26%; }
+div.grid3       { width: 29.32%; }
+div.grid4       { width: 39.44%; }
+div.grid5       { width: 49.54%; }
+div.grid6       { width: 59.63%; }
+div.grid7       { width: 69.72%; }
+div.grid8       { width: 79.81%; }
+div.grid9       { width: 89.90%; }
+div.grid10      { width: 100%; }
+div.grid1, div.grid2 , div.grid3, div.grid4, div.grid5, div.grid6, div.grid7, div.grid8, div.grid9, div.grid10 { 
+        float: left; display: inline; margin-left: 0.9%;
+}       
+div.first { margin-left: 0; }    

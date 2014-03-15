@@ -1,0 +1,163 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+        <head> 
+                <title>My first JQuery page</title> 
+                <meta charset="utf-8" /> 
+				<link href="css/main.css" rel="stylesheet" type="text/css" />
+				<link href="css/grid.css" rel="stylesheet" type="text/css" />
+				<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js">
+				</script>
+        </head> 
+        <body> 
+            <div id="container">
+			
+			<div id="content" class="grid10 first">
+				<h1>BUBBA</h1>
+						<img class="imagecenter" src="images/header1.jpg" alt="hair"/>
+				  
+			</div>
+
+			<div id="header" class="grid10 first">
+				<h1>Welcome to BUBBA hairdresser website</h1>	
+			</div>
+			
+			<div id="nav1" class="grid10 first">		
+				<ul>
+					<li><a href="index.html"> Home page</a></li>
+					<li><a href="about_us.html"> About us</a></li>
+					<li><a href="gallery.html"> Gallery  </a></li>
+					<li><a href="accessibility.html"> Accessibility</a></li>
+				</ul>
+			</div>
+				
+				<div id="accessibility" class="grid10 first">
+				
+					<h2>Accessibility</h2>
+
+					<p>BUBBA website provides information about hairdresser for everyone (include
+					people of all abilities and disabilities) and elderly. For people who cannot see very well, 
+					BUBBA website provides the function which can increase the text size bigger, this will help 
+					people can see the text easier and read in a number of ways. To help people can see clearly 
+					all the information about BUBBA, the website makes the content of BUBBA covered in yellow
+					green background include the big text size with black colour (the contrast colours between 
+					black and yellow green will make the text can be seen easier) will help people can see the 
+					text clearly, this also makes the page become more stylish. BUBBA website has another function 
+					which can change the colour of text from black to red for who want to see the information with 
+					different colour, by moving the mouse to the text where you want to see and the colour of the 
+					text will change to red, this will help people who do not want to see the information in black 
+					text but different colour. BUBBA also has another function which is to change the colour of 
+					navigation when people move the mouse to the link they want to access. This will attract to 
+					people and also it helps people to find out the page they want to go easier.  </p>
+					
+				</div>
+				
+				<div id="usability" class="grid10 first">
+				
+					<h2>Usability</h2>
+					<p>To become a successful website, BUBBA needs to make customers trust and visit the
+					website often. To do that, the website needs to be consistent and easy to navigate. With good
+					navigation, customers can search directly for the things that they want to look for easier. BUBBA
+					website has the navigation menu which help customers can click on one of the buttons on navigation 
+					bar to move to the page that they want to look. This will make the visitors like BUBBA website and
+					make them visit more often. However, BUBBA website has only English language and it will be 
+					inconvenient for customers from other countries who do not understand what the website are talking 
+					about because they are not good at English, so they will decide to leave the website. This is why 
+					the website should have more than one language, this will help customers can select the language 
+					that they can understand clearly, from that they can decide to visit the website more often. BUBBA 
+					website has an excellent house style. The content of BUBBA website covered in yellow green background.
+					The header is within a yellow green background to emphasise BUBBA title, include the big text size 
+					with black colour also will help customers can see the text clearly, this also make the page become 
+					more stylish. The images that the website used in every web page are clear and easy to look. The font 
+					type the website uses is Verdana, it is a family font with everyone, very consistent and it works well
+					with the background colours the website used. The website also informs customers about the new offers
+					or new services in the home page which can be used to attract customers. </p>
+					
+					
+  					<script>
+						  $("p").mouseover(function () {
+							$(this).css("color","red");
+						  });
+						   $("p").mouseout(function () {
+							$(this).css("color","black");
+						  });
+					</script>
+
+				
+  					<script>
+						  $("p").mouseover(function () {
+							$(this).css("color","red");
+						  });
+						   $("p").mouseout(function () {
+							$(this).css("color","black");
+						  });
+					</script>
+
+
+					
+				</div>
+				
+				<div id="size" class="grid10 first">
+					
+					<p>Change the Font Size</p>
+					<ul>
+						<li><a><strong id="increasefont">A+</strong></a></li>
+						<li><a><strong id="decreasefont">A-</strong></a></li>
+						<li><a><strong id="defaultfont">A</strong></a></li>
+					</ul>
+					
+					<script>
+						$(document).ready(function(){
+							  // Reset Font Size
+							  var originalFontSize = $('body').css('font-size');
+								$("#defaultfont").click(function(){
+								$('body').css('font-size', originalFontSize);
+							  });
+							  // Increase Font Size
+							  $("#increasefont").click(function(){
+								var currentFontSize = $('body').css('font-size');
+								var currentFontSizeNum = parseFloat(currentFontSize, 10); // to get the font size property's number only
+								var newFontSize = currentFontSizeNum*1.2;
+								$('body').css('font-size', newFontSize);
+								return false;
+							  });
+							  // Decrease Font Size
+							  $("#decreasefont").click(function(){
+								var currentFontSize = $('body').css('font-size');
+								var currentFontSizeNum = parseFloat(currentFontSize, 10); // The second argument for parseFloat() allows us to ensure that the 
+																						//number is interpreted as base-10 instead of octal or some other representation
+													
+								var newFontSize = currentFontSizeNum*0.8;
+								$('body').css('font-size', newFontSize);
+								return false;
+							  });
+						});
+					</script>
+					
+
+				</div>
+				
+			<div id="nav2" class="grid7 first">
+				<p><a href="index.html"> Back to Home page</a></p>
+				<p><a href="accessibility.html"> Accessibility</a></p>
+				<p><a href="about_us.html"> About BUBBA</a></p>
+			</div>
+			
+			<div id="adward" class="grid4">
+				<img class="image1" src="images/winner.png" alt="hair"/>
+			</div>
+			
+			
+			<img class="imagefooter" src="images/hair10.png" alt="hair"/>
+			<img class="imagefooter" src="images/hair11.png" alt="hair"/>
+			<img class="imagefooter" src="images/hair12.png" alt="hair"/>
+			<img class="imagefooter" src="images/hair13.png" alt="hair"/>
+			
+			<div id="footer" class="grid9">
+				<p>BUBBA website designed by Linh Nguyen Duy - C3284175</p>
+			</div>
+				
+			</div>
+					   
+        </body> 
+
+</html>
