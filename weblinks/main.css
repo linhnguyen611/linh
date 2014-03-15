@@ -1,0 +1,160 @@
+div#header {  
+	font-size: 1.4em;
+	padding-bottom: 0.5em;
+    }
+
+div#footer { 
+	font-size: 1.4em;
+	padding-top: 0.5em;
+	height: auto;
+    }
+
+div#footer1 { 
+	font-size: 1.4em;
+	padding-top: 0.5em;
+    }
+
+div#left-column {
+	padding-top: 1em;
+	padding-bottom:25em;
+	}
+
+	
+div#address {
+	float: right;
+	height: auto;
+	}
+	
+div#timetable {
+	padding-top: 2em;
+	float: right;
+	height: auto;;
+	}
+		
+div#mainbody {
+	padding-left: 3em;
+	padding-right: 2em;
+	margin: 10px;
+	font-size: 19px;
+	margin-top: 1em;
+	margin-left: 5em;
+	}
+
+ul#nav1 {
+	width:100%;
+	font-size:5em;
+	font-weight:bold;
+	display:inline;	
+	padding-left: 3em;
+	}
+	
+ul#nav2 li {
+	float:left;
+	margin:0em 0em 1em 0em;
+	display:inline;
+	margin-right:1px;
+	margin-left:1px;
+	width:11em;
+	font-size: 15px;
+	
+	}
+ul#nav2 li a {text-decoration:none;display:block;padding:0.5em 0.7em;border:2px solid;background-color: grey; color: white;}
+ul#nav2 li a:hover{border:2px solid;background:silver;}
+
+div#nav3 {
+	margin-left: 4em;
+	font-size: 19px;
+	padding-top: 1em;
+	height: auto;
+	}	
+
+div#nav4 {
+	float:left;
+	}
+	
+ul#nav6 li {
+	float:left;
+	display:inline;
+	width:9em;
+	font-size: 12px;
+	margin-right:5px;
+	}
+	
+ul#nav6 li a {text-decoration:none;display:block;padding:0.5em 0.7em;border: 2px solid; background-color: grey; color: white;}
+ul#nav6 li a:hover{border:2px solid;background:silver;}
+
+ul#nav7 li {
+	float:left;
+	display:inline;
+	width:9em;
+	font-size: 17px;
+	margin-right:1px;
+	}
+	
+ul#nav7 li a {text-decoration:none;display:block;padding:0.5em 0.7em;border: 2px solid; background-color: grey; color: white;}
+ul#nav7 li a:hover{border:2px solid;background:silver;}
+
+
+div#aboutus {
+	font-size: 19px;
+	}
+
+div#References {
+	font-size: 19px;
+	}
+	
+ul#cat1 li {
+	float:left;
+	display:inline;
+	width:12em;
+	font-size: 19px;
+	
+	}
+ul#cat1 li a {text-decoration:none;display:block;padding:0.5em 0.7em;border: hidden;}
+ul#cat1 li a:hover{border:hidden;background:silver;}
+
+div#time {
+	font-size: 19px;
+	}
+	
+div#display {
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	
+.image {
+	padding-top:1em;
+	display: block;
+	height:15%;
+	width:100%;
+	}
+	
+.image1 {
+	display: block;
+	height:0%;
+	width:100%;
+	}
+	
+.winner {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	height:40%;
+	width:40%;
+	padding-top: 1em;
+	}
+
+.imagecenter {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	height: 50%;
+	width: 70%;
+	}
+
+.imagefooter {
+	height: 215px;
+	width: 190px;
+	}
+

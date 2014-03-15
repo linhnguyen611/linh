@@ -1,0 +1,16 @@
+.container  { width: 90%; margin: 0 auto; }
+.grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10                
+{ float: left; display: inline; margin-top: 0.2%; margin-left: 0.35%; text-align: center;                  
+background-color: black; color: white; border:  hidden;}
+
+.grid1       { width:   9.1%; }
+.grid2       { width: 19.2%; }
+.grid3       { width: 29.3%; }
+.grid4       { width: 39.4%; }
+.grid5       { width: 49.5%; }
+.grid6       { width: 59.6%; }
+.grid7       { width: 69.7%; }
+.grid8       { width: 79%; }
+.grid9       { width: 99%; }
+.grid10     { width: 100%; }
+.first      { margin-left: 0; clear: left; }
